@@ -12,6 +12,6 @@ Code library for macroeconomic forecasting in MATLAB, Python, and R.
 - RF: random forest ensemble
 - NN: feed-forward neural networks
 - TVPSV: time-varying parameter stochastic volatility
-- MS: Markov switching
+- MS: markov switching
 - CSR: complete subset regression
 

@@ -4,5 +4,14 @@ Code library for macroeconomic forecasting in MATLAB, Python, and R.
 ## Supported Models
 - AR: autoregressive model
 - ARDI: factor-augmented autoregressive model
--  Partial least squares regression (PLS), Elastic net regression (ENET), LASSO, Kernel ridge regression (KRR), Support vector regression (SVR), Random forest ensemble regression (RF), Feed-forward neural networks (NN), Time-varying parameter stochastic volatility (TVPSV), Markov switching (MS), and Complete subset regression (CSR) 
+- PLS: partial least squares
+- ENET: elastic net
+- LASSO: least absolute shrinkage and selection
+- KRR: kernel ridge regression
+- SVR: support vector regression
+- RF: random forest ensemble
+- NN: feed-forward neural networks
+- TVPSV: time-varying parameter stochastic volatility
+- MS: Markov switching
+- CSR: complete subset regression
 

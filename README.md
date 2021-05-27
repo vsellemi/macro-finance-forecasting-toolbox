@@ -1,4 +1,4 @@
-# Macroeconomic Forecasting Toolbox
+# Macroeconomic and Financial Forecasting Toolbox
 Code library for financial and macroeconomic forecasting in MATLAB (Python and R versions in progress)
 
 ## Supported Models

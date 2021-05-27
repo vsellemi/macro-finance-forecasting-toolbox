@@ -22,7 +22,7 @@ estimate factors using Principal Components Analysis (PCA) on the panel.
 
 For ease of implementation, the default setting in our forecasting
 models is to form predictors as a subset of the first 8 PCA factors and
-their lags.[^3] These factors explain over 50% of total variation in
+their lags. These factors explain over 50% of total variation in
 FRED-MD panel. The default is also to include an autoregressive
 component in the forecasting target. The folder `data` contains the
 FRED-MD stationary-transformed data and the file containing the first 8
@@ -94,10 +94,10 @@ These files allow users to specify the following settings.
 ## Evaluation
 
 The main files also provide several standard point forecast evaluation
-metrics, namely @DMTest test, @White2000Reality and @Hansen2005test
-p-values, and the @Hansen2011MCS model confidence set. These tests are
+metrics, namely Diebold and Mariano (1995) test, White (2000) and Hansen (2005)
+p-values, and the Hansen et al. (2011) model confidence set. These tests are
 implemented relative to the specified benchmark. We also provide code to
-implement the @MZTest forecast evaluation test. Lastly, users generate
+implement the Mincer and Zarnowitz (1969) forecast evaluation test. Lastly, users generate
 time-series plots of the forecast, cumulative mean squared prediction
 error, and rolling root mean squared prediction error of the model and
 benchmark.
@@ -159,12 +159,12 @@ benchmark.
 
 10. `main_TVPSV.m`: time-varying parameter stochastic volatility model
 
-    -   HPs: see @PettenuzzoTimmermann2015
+    -   HPs: see Pettenuzzo and Timmermann (2015)
 
 11. `main_MS.m`: Markov-Switching model
 
-    -   HPs: see @PettenuzzoTimmermann2015
+    -   HPs: see Pettenuzzo and Timmermann (2015)
 
 12. `main_CSR.m`: complete subset regression
 
-    -   HPs: see @ELLIOTT2013357
+    -   HPs: see Elliott, Gargano, Timmermann (2013)

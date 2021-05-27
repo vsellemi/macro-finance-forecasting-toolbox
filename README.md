@@ -1,5 +1,5 @@
 # Macroeconomic Forecasting Toolbox
-Code library for macroeconomic forecasting in MATLAB (Python and R versions in progress)
+Code library for financial and macroeconomic forecasting in MATLAB (Python and R versions in progress)
 
 ## Supported Models
 - AR: autoregressive model

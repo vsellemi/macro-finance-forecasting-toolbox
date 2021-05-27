@@ -15,3 +15,11 @@ Code library for macroeconomic forecasting in MATLAB (Python and R versions in p
 - MS: markov switching
 - CSR: complete subset regression
 
+## References
+P .G. Coulombe, M.Leroux, D.Stevanovic, and S.Surprenant. How is machine learning useful for macroeconomic forecasting?, 2020.
+
+G. Elliott, A.Gargano, and A.Timmermann. Complete subset regressions. Journal of Econometrics, 2013.
+
+D.Pettenuzzo and A. Timmermann. Forecasting macroeconomic variables under model instability. Journal of Business and Economic Statistics, 2015.
+
+

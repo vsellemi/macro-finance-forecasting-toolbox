@@ -3,8 +3,7 @@
 # Overview 
 
 This repository contains sample MATLAB codes for
-macroeconomic forecasting. The main files are contained in the `matlab`
-directory and are named `main_<model name>.m`. These files require
+macroeconomic forecasting. The main files are named `main_<model name>.m`. These files require
 necessary helper functions contained in the `util` subdirectory and data
 files contained in the `data` subdirectory. Users should also ensure
 that they have installed the `Econometrics` and

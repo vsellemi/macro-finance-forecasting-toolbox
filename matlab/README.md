@@ -1,14 +1,8 @@
----
-author:
-- "Victor Sellemi[^1]"
-bibliography:
-- references.bib
-title: "README - MATLAB Code[^2]"
----
 
-# Overview {#overview .unnumbered}
 
-This file contains details on implementing sample MATLAB codes for
+# Overview 
+
+This repository contains sample MATLAB codes for
 macroeconomic forecasting. The main files are contained in the `matlab`
 directory and are named `main_<model name>.m`. These files require
 necessary helper functions contained in the `util` subdirectory and data
@@ -17,7 +11,7 @@ that they have installed the `Econometrics` and
 `Statistics and Machine Learning` Toolboxes with MATLAB version
 `R2021a+`.
 
-# Data {#data .unnumbered}
+# Data 
 
 For these examples, we use the FRED-MD monthly panel of US macroeconomic
 and financial variables from @FRED-MD. Our version of these data span
@@ -42,13 +36,13 @@ treasury rate and federal funds rate (SPREAD), and housing starts
 and forecasting horizon by defining the `YY` and `h` objects,
 respectively.
 
-# Main Files {#main-files .unnumbered}
+# Main Files
 
 The main files for the forecasting models are named
 `main_<model name>.m` and implement selection, estimation, and
 evaluation steps for each model.
 
-## Settings {#settings .unnumbered}
+## Settings 
 
 These files allow users to specify the following settings.
 
@@ -97,7 +91,7 @@ These files allow users to specify the following settings.
     possible combinations of hyperparameters and users can define this
     set (e.g., maximum number of AR lags, maximum number of factors).
 
-## Evaluation {#evaluation .unnumbered}
+## Evaluation
 
 The main files also provide several standard point forecast evaluation
 metrics, namely @DMTest test, @White2000Reality and @Hansen2005test
@@ -108,7 +102,7 @@ time-series plots of the forecast, cumulative mean squared prediction
 error, and rolling root mean squared prediction error of the model and
 benchmark.
 
-## Models[^4]  {#models .unnumbered}
+## Models 
 
 1.  `main_AR.m`: autoregressive model
 
@@ -174,15 +168,3 @@ benchmark.
 12. `main_CSR.m`: complete subset regression
 
     -   HPs: see @ELLIOTT2013357
-
-[^1]: PhD student at UC San Diego. Email:
-    [`vsellemi@ucsd.edu`](vsellemi@ucsd.edu)
-
-[^2]: Related code libraries in Python, MATLAB, and R can also be found
-    at [`github.com/vsellemi`](github.com/vsellemi)
-
-[^3]: This can be changed by modifying the definition of "factors\" in
-    the main files.
-
-[^4]: See @ARDI for details on model 2 and @hastie01statisticallearning
-    or @coulombe2020machine for more details on models 3-9.

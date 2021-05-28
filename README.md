@@ -1,6 +1,8 @@
 # Macroeconomic and Financial Forecasting Toolbox
 Code library for financial and macroeconomic forecasting in MATLAB (Python and R versions in progress)
 
+Contact Victor Sellemi (vsellemi@ucsd.edu) for more information. 
+
 ## Supported Models
 - AR: autoregressive model
 - ARDI: factor-augmented autoregressive model

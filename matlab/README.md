@@ -28,7 +28,7 @@ FRED-MD stationary-transformed data and the file containing the first 8
 PCA factors.
 
 Our main files allow for five different forecasting targets as in
-@coulombe2020machine: industrial production (INDPRO), unemployment rate
+Coulombe et al. (2020): industrial production (INDPRO), unemployment rate
 (UNRATE), consumer price index (CPI), difference between 10-year
 treasury rate and federal funds rate (SPREAD), and housing starts
 (HOUST). The main files allows users to specify the forecasting target
